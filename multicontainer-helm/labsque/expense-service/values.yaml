@@ -1,0 +1,10 @@
+postgres:
+  user: ""
+  pass: ""
+  db: "sampledb"
+
+expenseService:
+  replicaCount: 1
+  image: "https://github.com/florient2016/php-openshift-code.git"
+  host: "expense-service"
+  domain: "apps.ocp4.example.com"
